@@ -1,7 +1,10 @@
 language: node_js
+build_image: drydock/u12nodpls
 
 node_js:
   - 0.10.25
+services:
+  - postgresdb
 
 # For xunit-file module to put results in shippable folder
 env:
