@@ -19,7 +19,7 @@ before_script:
   - psql -c 'CREATE DATABASE app_test;' -U postgres
 
 script:
-  - npm test
+  - npm test 
 
 # Generate coverage report with istanbul
 after_script:
